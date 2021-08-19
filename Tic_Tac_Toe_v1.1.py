@@ -50,7 +50,7 @@ def checkwin():  #Check if anybody has won the game
     if fline == -3 or sline == -3 or tline == -3 or frow == -3 or srow == -3  or trow == -3 or rupdia == -3 or lupdia == -3 :
         Bwin = True
 
-#Now I add the funktions to simplyfy the code
+#Now I add the funktions to simplify the code
 def moveA(num, playr):
     inputmove = int(input(playr+", make the "+num+" move: "))
     addpointA(inputmove)
@@ -93,7 +93,7 @@ moveB("8.", Bname)
 cwinB()
 moveA("9.", Aname)
 cwinA()
-print("The game ended in a draw") # If the programm hasn't quit jet, is means that nobody has won.
+print("The game ended in a draw") # If the programm hasn't quit jet, it means that nobody has won.
 '''
 #print(fline,sline,tline,frow,srow,trow,leftupdia,rightupdia)
 '''
